@@ -1,0 +1,25 @@
+{
+  "name": "robATwitter",
+  "version": "1.0.0",
+  "description": "A twitter bot for my site Rob Askam",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "bot",
+    "twitter",
+    "robaskam"
+  ],
+  "author": "Robert Askam",
+  "license": "ISC",
+  "dependencies": {
+    "rss-tweet-bot": "^0.1.1",
+    "twit": "^2.2.5",
+    "path": "^0.12.7",
+    "express": "^4.14.0"
+  },
+  "engines": {
+    "node": "7.9.0"
+  }
+}
